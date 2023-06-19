@@ -22,5 +22,5 @@ jobs:
       - name: ABI Encode
         uses: blocklytics/abi-encoder-action@1.1.1
         with:
-          contractPath: ./contracts/Dollar.sol # Replace with your contract path
+          contractPath: contracts/Dollar.sol # Replace with your contract path
           arguments: '000000000000000000000000123456789abcdefABCDEF123456789ABCDEF123' # Replace with your constructor arguments
